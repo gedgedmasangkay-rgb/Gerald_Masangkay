@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e6e6e6;
+    padding-top: 70px;
+    text-align: center;
+}
+
+/* MAIN WHITE BOX */
+.main-box {
+    background: rgb(252, 191, 247);
+    width: 350px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+
+    /* Neon Pink + Blue Border */
+    border: 5px solid;
+    border-image: linear-gradient(45deg, #ff00ff, #00c8ff) 1;
+
+    box-shadow: 0px 0px 20px rgba(255, 0, 255, 0.3),
+                0px 0px 20px rgba(0, 200, 255, 0.3);
+}
+
+#nameBox {
+    padding: 10px;
+    width: 70%;
+    font-size: 18px;
+    background-color: rgb(219, 216, 213);
+    
+}
+
+#submitBtn {
+    padding: 10px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+#output {
+    display: none;
+    margin-top: 30px;
+}
+
+.floating {
+    width: 180px;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+#welcomeText {
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
